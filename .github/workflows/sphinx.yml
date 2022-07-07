@@ -1,6 +1,8 @@
-name: "Push Docs Check"
-on: 
-- push
+name: Push Docs Check and Update
+on:
+  push:
+    branches:    
+      - master
 
 jobs:
   docs:
