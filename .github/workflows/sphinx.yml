@@ -42,4 +42,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
         branch: gh-pages
+        directory: gh-pages
     # ===============================
