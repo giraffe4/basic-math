@@ -1,5 +1,5 @@
 .. basic-math documentation master file, created by
-   sphinx-quickstart on Thu Jul  7 14:13:42 2022.
+   sphinx-quickstart on Thu Jul  7 15:23:11 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
