@@ -15,3 +15,9 @@ class Rectangle:
         width = (self.left_bottom.x + self.right_top.x) / 2
         length = (self.left_bottom.y + self.right_top.y) / 2
         return width * length
+
+@dataclass(frozen=True)
+class Triangle:
+    first_point: Point
+    second_point: Point
+    third_point: Point

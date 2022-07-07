@@ -1,5 +1,5 @@
 """Methods for adding objects"""
-from classes import Rectangle
+from classes import Rectangle, Triangle
 
 
 def add_rectangles(origin_rectangle: Rectangle, rectangle_for_adding: Rectangle) -> Rectangle:
@@ -18,3 +18,8 @@ def add_rectangles(origin_rectangle: Rectangle, rectangle_for_adding: Rectangle)
     final_rectangle = Rectangle(origin_rectangle.left_bottom, (origin_rectangle.left_bottom.x + 1, origin_rectangle.left_bottom.y + 1))
     # area = origin_rectangle.area + rectangle_for_adding.area
     return final_rectangle
+
+
+def add_triangles(origin_triangle: Triangle, triangle_for_adding) -> Triangle:
+    """Add two trinagles"""
+    pass
