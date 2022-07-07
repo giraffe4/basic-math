@@ -43,5 +43,4 @@ jobs:
         force_with_lease: true
         branch: gh-pages
         directory: gh-pages
-        github_token: ${{ secrets.GITHUB_TOKEN }}
     # ===============================
