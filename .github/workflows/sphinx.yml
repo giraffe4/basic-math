@@ -40,6 +40,7 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
+        force_with_lease: true
         branch: gh-pages
         directory: gh-pages
         github_token: ${{ secrets.GITHUB_TOKEN }}
