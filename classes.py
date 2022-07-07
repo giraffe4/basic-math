@@ -21,3 +21,8 @@ class Triangle:
     first_point: Point
     second_point: Point
     third_point: Point
+
+@dataclass(frozen=True)
+class Circle:
+    center: Point
+    radius: float

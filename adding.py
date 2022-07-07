@@ -1,5 +1,5 @@
 """Methods for adding objects"""
-from classes import Rectangle, Triangle
+from classes import Rectangle, Triangle, Circle
 
 
 def add_rectangles(origin_rectangle: Rectangle, rectangle_for_adding: Rectangle) -> Rectangle:
@@ -22,4 +22,8 @@ def add_rectangles(origin_rectangle: Rectangle, rectangle_for_adding: Rectangle)
 
 def add_triangles(origin_triangle: Triangle, triangle_for_adding) -> Triangle:
     """Add two trinagles"""
+    pass
+
+def add_circles(first_circle: Circle, second_circle: Circle) -> Circle:
+    """Add two circles"""
     pass
